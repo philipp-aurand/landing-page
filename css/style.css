@@ -4,7 +4,7 @@ body {
     align-items: center;
     /* height: 150vh; */
     width: 100vw;
-  
+    background-color: rgb(9, 8, 8);
 }
 .page {
     border: 5px solid red;
@@ -19,23 +19,25 @@ body {
 
 .container.one {
     background: #0f0f49ff;
-    padding: 36px;
+    padding: 15px 175px 75px;
     display: flex;
     flex-direction: column;
     /* align-items: flex-start; */
+}
+
+.header {
+    border: 2px solid white;
+    display: flex;
+    padding:;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     border: 3px solid orange;
     font-size: 24px;
     color: #F9FAF8;
-}
-
-.header {
-    border: 2px solid white;
     display: flex;
-    justify-content: space-between; 
-    padding: 12px;
 }
 
 .headers {
@@ -47,25 +49,33 @@ body {
     list-style-type: none;
 }
 
-.placeholder {
-    position: absolute;
-    margin-top: 50px;
-    align-items: center;
-    width: 250px;
-    height: 100px;
-    background: grey;
-}
-
 a {
     color: #e5e7eb;
     text-decoration: none; 
 }
 
+.test {
+    padding-top: 50px;
+    border: solid 3px plum;
+    display: flex;
+    justify-content: space-between;
+    /* display: flex; */
+     /*align-items: center; */
+    /* gap: 40px; */
+}
+
 .title-container {
-    border: 1px solid orange;
+    border: 3px solid red;
     width: 350px; 
     display: flex;
     flex-direction: column;
+}
+
+.title1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold; 
+    line-height: 1.0em;
 }
 
 .Sign_up.one {
@@ -75,11 +85,15 @@ a {
     border-radius: 8px;
 }
 
-.title1 {
-    font-size: 48px;
-    color: #F9FAF8;
-    font-weight: bold; 
-    line-height: 1.0em;
+.placeholder {
+    /* position: absolute; */
+    /* margin-top: 50px; */
+    display: flex;
+    width: 425px;
+    height: 175px;
+    background: grey;
+    justify-content: center;
+    align-items: center;
 }
 
 .container.two {
@@ -147,13 +161,14 @@ a {
     font-style: italic;
     font-weight: 100;
 }
+
 .credit {
     border: 1px solid black;
     display: flex;
     justify-content: flex-end;
     color: #1F2937;
-    
-
+    font-size: 18px;
+    font-weight: 700; 
 }
 
 .thor {
@@ -161,11 +176,6 @@ a {
     display: flex; 
 }
 
-.test {
-    display: flex;
-     /*align-items: center; */
-    /* gap: 40px; */
-}
 
 .container.four {
     background: #F9FAF8;
@@ -174,8 +184,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 65px;
-      
+    padding: 65px; 
 }
 
 .blue-box {
@@ -184,14 +193,23 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 35px 75px;
+    padding: 45px 125px;
     gap: 50px;
     /* background: orange; */
 }
 
+.bluebox-sub {
+    display: flex;
+    flex-direction: column;
+}
+.title3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 .sign.container {
     border: 3px solid black;
-    display: flex;
+    /* display: flex; */
 }
 
 .Sign_up_two {
@@ -205,5 +223,7 @@ a {
 .footer {
     background: #1F2397;
     padding: 30px;
+    text-align: center; 
+    color: #F9FAF8;
 }
 
